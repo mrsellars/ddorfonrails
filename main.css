@@ -20,7 +20,22 @@ hr {
 	border-right: none;
 	border-top:   none;
 	border-bottom: 3px dashed #EDEDED;
-	margin-top: 30px;
+	margin-top: 40px;
+}
+
+a {
+    color: #EDEDED;
+	border-bottom:1px solid #EDEDED;
+    text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 0px;
+}
+
+a span
+{
+  	display: none;
 }
 
 a.twitter
@@ -30,13 +45,12 @@ a.twitter
   	width: 37px;
   	height: 20px;
     margin-top:3px;
+	border-bottom: 0px;
 }
 
-a span
-{
-  	display: none;
+a.no_border {
+	border-bottom: 0px;
 }
-
 .top_links {
 	padding-top: 40px;
 	float:right;
@@ -46,8 +60,33 @@ a span
 	padding-left: 15px;
 }
 
+.padding_bottom {
+	padding-bottom: 40px;
+}
+
 .logo {
 	float:left;
+}
+
+.topics {
+    font-size: 20px;
+    line-height: 22px;
+	padding-top: 20px;
+}
+
+.no_top_padding {
+	padding-top:0px;
+}
+.margin_top {
+	margin-top:10px;
+}
+
+.nom {
+	margin-top:20px;
+}
+
+.footer {
+	margin-top:50px;
 }
 
 /* ================ */
