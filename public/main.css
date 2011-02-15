@@ -1,0 +1,83 @@
+body {
+    background: none repeat scroll 0 0 #C01D28;
+    color: #EDEDED;
+    font-family: ProcionoRegular,georgia,palatino,times new roman,serif;
+    text-rendering: optimizelegibility;
+}
+
+h1 {
+    background: url('logo.png') no-repeat scroll 2px 0 transparent;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 40px;
+    padding: 14px 0 35px 90px;
+}
+
+hr {
+	background: transparent;
+	color: transparent;
+	border-left:  none;
+	border-right: none;
+	border-top:   none;
+	border-bottom: 3px dashed #EDEDED;
+	margin-top: 30px;
+}
+
+a.twitter
+{
+	background: url('twitter.png') no-repeat 0 0;
+  	display: block;
+  	width: 37px;
+  	height: 20px;
+    margin-top:3px;
+}
+
+a span
+{
+  	display: none;
+}
+
+.top_links {
+	padding-top: 40px;
+	float:right;
+}
+
+.padding_left_20 {
+	padding-left: 15px;
+}
+
+.logo {
+	float:left;
+}
+
+/* ================ */
+/* = The 1Kb Grid = */     /* 12 columns, 40 pixels each, with 20 pixel gutter */
+/* ================ */
+
+.grid_1 { width:40px; }
+.grid_2 { width:100px; }
+.grid_3 { width:160px; }
+.grid_4 { width:220px; }
+.grid_5 { width:280px; }
+.grid_6 { width:340px; }
+.grid_7 { width:400px; }
+.grid_8 { width:460px; }
+.grid_9 { width:520px; }
+.grid_10 { width:580px; }
+
+.column {
+	margin: 0 10px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.row {
+	width: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -10px;
+	width: auto;
+	display: inline-block;
+}
